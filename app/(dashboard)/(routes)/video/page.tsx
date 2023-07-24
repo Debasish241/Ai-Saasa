@@ -8,6 +8,7 @@ import { useForm } from "react-hook-form";
 import { toast } from "react-hot-toast";
 import { FileAudio } from "lucide-react";
 import { useRouter } from "next/navigation";
+
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Form, FormControl, FormField, FormItem } from "@/components/ui/form";
@@ -15,8 +16,8 @@ import { Loader } from "@/components/loader";
 import { useProModal } from "@/hooks/use-pro-modal";
 
 import { formSchema } from "./constants";
-import Heading from "@/components/heading";
 import { Empty } from "@/components/empty";
+import Heading from "@/components/heading";
 
 const VideoPage = () => {
   const router = useRouter();
